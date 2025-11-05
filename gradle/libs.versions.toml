@@ -1,18 +1,18 @@
 [versions]
-kotlin = "2.2.0"
+kotlin = "2.2.21"
 kotlinx-serialization = "1.9.0"
 kotlinx-coroutines = "1.10.2"
-kotlinx-rpc = "0.9.1"
-android-plugin = "8.12.0"
+kotlinx-rpc = "0.10.1"
+android-plugin = "8.13.0"
 android-compileSdk = "36"
 android-minSdk = "24"
 android-targetSdk = "36"
-androidx-activity = "1.10.1"
-androidx-lifecycle = "2.9.1"
-compose = "1.8.2"
-ktor = "3.2.3"
-logback = "1.5.18"
-molecule = "2.1.0"
+androidx-activity = "1.11.0"
+androidx-lifecycle = "2.9.5"
+compose = "1.9.2"
+ktor = "3.3.1"
+logback = "1.5.20"
+molecule = "2.2.0"
 
 [libraries]
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
@@ -27,9 +27,7 @@ kotlinx-rpc-krpc-ktor-server = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krp
 kotlinx-rpc-krpc-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-serialization-json", version.ref = "kotlinx-rpc" }
 ktor-server-core = { module = "io.ktor:ktor-server-core-jvm", version.ref = "ktor" }
 ktor-server-netty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "ktor" }
-ktor-server-cors-jvm = { module = "io.ktor:ktor-server-cors-jvm", version.ref = "ktor" }
-ktor-server-websockets-jvm = { module = "io.ktor:ktor-server-websockets-jvm", version.ref = "ktor" }
-ktor-server-host-common-jvm = { module = "io.ktor:ktor-server-host-common-jvm", version.ref = "ktor" }
+ktor-server-cors = { module = "io.ktor:ktor-server-cors-jvm", version.ref = "ktor" }
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 ktor-client-websockets = { module = "io.ktor:ktor-client-websockets", version.ref = "ktor" }
 ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
